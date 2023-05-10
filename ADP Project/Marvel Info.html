@@ -1,0 +1,180 @@
+<html>
+<head>
+<title> Marvel Movie Info </title>
+<script language="javascript">
+function PageRedirect()
+{
+	MVName = document.getElementById('M1').value;
+	
+	switch(MVName)
+	{
+		case "AV":
+		window.location="Avengers.html";
+		break;
+		
+		case "AOU":
+		window.location="Avengers%20Age%20Of%20Ultron.html";
+		break;
+
+		case "EG":
+		window.location="Avengers%20Endgame.html";
+		break;
+
+		case "IW":
+		window.location="Avengers%20Infinity%20War.html";
+		break;
+
+		case "CW":
+		window.location="CACW.html";
+		break;
+
+		case "FA":
+		window.location="CATFA.html";
+		break;
+
+		case "WS":
+		window.location="CATWS.html";
+		break;
+
+		case "DS":
+		window.location="Dr%20Strange.html";
+		break;
+
+		case "MOM":
+		window.location="Dr%20Strange%20MOM.html";
+		break;
+
+		case "IM":
+		window.location="Ironman.html";
+		break;
+
+		case "IM2":
+		window.location="Ironman%202.html";
+		break;
+
+		case "IM3":
+		window.location="Ironman%203.html";
+		break;
+
+		case "SM":
+		window.location="Spiderman.html";
+		break;
+
+		case "NWH":
+		window.location="No%20way%20home.html";
+		break;
+
+		case "TASM":
+		window.location="TASM.html";
+		break;
+
+		case "TR":
+		window.location="Thor%20Ragnarok.html";
+		break;
+
+		
+	}
+	
+	
+	
+}
+</script>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2px;
+  background-color: #2196F3;
+  padding: 2px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, .3);
+  text-align: center;
+  padding: 5px 0;
+  font-size: 25px;
+}
+</style>
+</head>
+ 
+<body style="background-color:lightblue;"> 
+
+
+
+
+<Table width =100%>
+	<tr>
+		<td> <a href="Marvel Info.html"><img src="MoviesInfo.png" ></a> 
+		</td>
+		
+		<td align = right> 
+			<P Align="right">
+				<SELECT id="M1" NAME="section" onChange="PageRedirect();">
+					<Option value="">Select Movie</option>
+					<Option value="AV">Avengers</option>
+					<Option value="AOU">Avengers: Age of Ultron</option>
+					<Option value="EG">Avengers: Endgame</option>
+					<Option value="IW">Avengers: Infinity War</option>
+					<Option value="CW">Captain America: Civil War </option>
+					<Option value="FA">Captain America: The First Avenger</option>
+					<Option value="WS">Captain America: The Winter Soldier</option>
+					<Option value="DS">Doctor Strange</option>
+					<Option value="MOM">Doctor Strange in the Multiverse of Madness</option>
+					<Option value="IM">Iron-Man</option>
+					<Option value="IM2">Iron-Man 2</option>
+					<Option value="IM3">Iron-Man 3</option>
+					<Option value="SM">Spider-Man</option>
+					<Option value="NWH">Spider-Man: No Way Home</option>
+					<Option value="TASM">The Amazing Spider-Man</option>
+					<Option value="TR">Thor: Ragnarok</option>
+				</SELECT>
+			</p> 
+		</td>
+	</tr>
+</table>
+
+
+
+
+<b><p style="font-size:50px;text-align:center;font-width:bold;color:DarkBlue;"> Select to view the Movie Information
+</p></b>
+
+
+<div class="grid-container">
+
+<div class="grid-item"><a href="Spiderman.html"><img src="Poster\SpideyPos.jpg"  alt="test" width="300" height="400"/></a><br/><p style="font-size:30px;">Spider-Man  (2002)</p></div>
+
+<div class="grid-item"><a href="Ironman.html"><img src="Poster\IMpos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Iron-Man (2008)</p></div>
+
+<div class="grid-item"><a href="Ironman 2.html"><img src="Poster\IM2pos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Iron-Man 2 (2010)</p></div>
+ 
+<div class="grid-item"><a href="CATFA.html"><img src="Poster\CATFApos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Captain America: The First Avenger (2011) </p></div>
+
+<div class="grid-item"><a href="Avengers.html"><img src="Poster\AvengersPos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Avengers   (2012)</p></div>
+
+<div class="grid-item"><a href="TASM.html"><img src="Poster\TASMPos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">The Amazing </br> Spider-Man (2012)</p></div>
+
+<div class="grid-item"><a href="Ironman 3.html"><img src="Poster\IM3pos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Iron-Man 3 (2013)</p></div>
+
+<div class="grid-item"><a href="CATWS.html"><img src="Poster\CATWSpos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Captain America: The Winter Soldier (2014)</p></div>
+
+<div class="grid-item"><a href="Avengers Age Of Ultron.html"><img src="Poster\AOUpos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Avengers: Age Of Ultron (2015)</p></div>
+
+<div class="grid-item"><a href="CACW.html"><img src="Poster\CACWpos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Captain America: Civil War (2016)</p></div>
+
+<div class="grid-item"><a href="Dr Strange.html"><img src="Poster\DrStrangePos.jpg" width="300" height="400"/></a><br/><p style="font-size:30px;">Doctor Strange  (2016)</p></div>
+
+<div class="grid-item"><a href="Thor Ragnarok.html"><img src="Poster\ThorPos.jpg" width="300" height="400"/></a><br/><p style="font-size:30px;">Thor: Ragnarok  (2017)</p></div>
+
+<div class="grid-item"><a href="Avengers Infinity War.html"><img src="Poster\InfinityWarPos.jpg" width="300" height="400"/></a><br/><p style="font-size:30px;">Avengers: Infinity War (2018)</p></div>
+
+<div class="grid-item"><a href="Avengers Endgame.html"><img src="Poster\EndgamePos.jpg" width="300" height="400"/></a><br/><p style="font-size:30px;">Avengers: Endgame (2019)</p></div>
+
+<div class="grid-item"><a href="No way home.html"><img src="Poster\NWHpos.jpg" width="300" height="400"/></a><br/><p style="font-size:30px;">Spider-Man: No Way Home (2021)</p></div>
+
+<div class="grid-item"><a href="Dr Strange MOM.html"><img src="Poster\DSMOMpos.jpg"  width="300" height="400"/></a><br/><p style="font-size:30px;">Doctor Strange in the Multiverse of Madness (2022)</p></div>
+
+</div> 
+</body>
+</html>
